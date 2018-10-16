@@ -1,14 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-/** Singly linked node class. */
-
-public class Node<T>
+namespace TranslatedJavaCode
 {
-	public T data;
-	public Node<T> next;
-	
-	public Node( T data, Node<T> next )
-	{
-		this.data = data;
-		this.next = next;
-	}
+    /// <summary>
+    /// Singly-linked node class
+    /// </summary>
+    public class Node<T>
+    {
+        public T Data;
+        public Node<T> Next;
+
+
+        public Node(T data, Node<T> next)
+        {
+            Data = data;
+            Next = next;
+        }
+    }
 }
